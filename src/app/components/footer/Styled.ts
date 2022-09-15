@@ -2,11 +2,12 @@ import styled from "styled-components";
 
 export const ContainerFooter = styled.div`
     width: 100%;
-    height: 16.875rem;
+    height: 21.875rem;
     background: #075F1E;
     display: flex;
     align-items: center;
     justify-content: space-around;
+    margin-top: 3.125rem;
     .imagem-logo{
         width: 8.125rem;
         height: 3.75rem;

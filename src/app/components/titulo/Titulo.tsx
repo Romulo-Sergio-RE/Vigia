@@ -12,7 +12,7 @@ export const Titulo: React.FC<ITitulo> = (props) =>{
             {props.color === "verde"?
                 <S.Titulo tituloColor={"#12562A"}>{props.titulo}</S.Titulo>
                 :
-                <S.Titulo tituloColor={"red"}>{props.titulo}</S.Titulo>
+                <S.Titulo tituloColor={"#f2f2f2"}>{props.titulo}</S.Titulo>
             }
         </div>
     );

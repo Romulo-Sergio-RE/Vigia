@@ -6,6 +6,12 @@ export const LandPage = () =>{
         <ContainerHome>
           <C.Header />
           <C.Inicio />
+          <C.NossoServico />
+          <C.NossoAplicativo />
+          <C.ComoFunciona />
+          <C.QuemSomos />
+          <C.FaleConosco />
+          <C.Footer />
         </ContainerHome>
     );
 } 

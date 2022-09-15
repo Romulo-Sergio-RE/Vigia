@@ -36,7 +36,7 @@ export const ContainerInfo = styled.div`
         border-radius: 0.938rem;
         border: none;
         background-color: #12562A;
-        box-shadow: 0 0.375rem 0.938rem rgba(0, 0, 0, 0.25);
+        box-shadow: 0.375rem 0 0.938rem rgba(0, 0, 0, 0.25);
         color: #f2f2f2;
         cursor: pointer;
         font-size: 1.25rem;

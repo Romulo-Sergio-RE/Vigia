@@ -4,11 +4,11 @@ import styled from "styled-components";
 export const ContainerCard = styled.div`
     display: block;
     align-items: center;
-    width: 19.375rem;
-    height: 17.5rem;
+    width: 18.75rem;
+    height: 15.625rem;
     background: #075F1E;
     border-radius: 0.938rem;
-    box-shadow: 0 0.5rem 1.25rem rgba(0, 0, 0, 0.35);
+    box-shadow: 0.5rem 0 1.25rem rgba(0, 0, 0, 0.35);
     margin-bottom: 1.25rem;
 `;
 export const TituloCard = styled.h3`
