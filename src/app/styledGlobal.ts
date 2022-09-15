@@ -2,16 +2,15 @@ import { createGlobalStyle } from 'styled-components';
 
 export const GlobalStyles = createGlobalStyle`
     html{
-    font-size: 62.5%;
-    font-family:Roboto;
+        font-size: 16px;
     }
     body{
-    background: #FFFFFFFF;
+        background: #f2f2f2;
     }
     *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
     }
 `
 ;

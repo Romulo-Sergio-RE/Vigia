@@ -1,42 +1,40 @@
 import React from "react";
 import  * as S from "./Styled";
 
-
 export const Footer = () =>{
     return(
-        
-    <S.ContainerFooter>
-            <S.Imagem src={require("../../assets/LogoVigiaBranco.png")}/>
+        <S.ContainerFooter>
+            <img 
+                className="imagem-logo" 
+                src={require("../../assets/image/logoVigiaBranco.png")}
+                alt="logo-vigia"
+            />
 
-            <S.Div>
-                <S.ConteinerInfo>
-                    <ul>
-                        <S.InfoItens>Sobre</S.InfoItens>
-                        <S.InfoItens>Quem somos</S.InfoItens>
-                        <S.InfoItens>Como funciona</S.InfoItens>
-                    </ul>
-                </S.ConteinerInfo>
+            <S.ContainerInfo>
+                <ul className="lista">
+                    <li className="lista-itens-titulo">Sobre</li>
+                    <li className="lista-itens">Quem Somos</li>
+                    <li className="lista-itens">Como Funciona</li>
+                </ul>
+                <ul className="lista">
+                    <li className="lista-itens-titulo">Fale Conosco</li>
+                    <li className="lista-itens">(85) 9999-9999</li>
+                    <li className="lista-itens">Vigia@gmail.com</li>
+                </ul>
+            </S.ContainerInfo>
 
-
-                <S.ConteinerInfo>
-                    <ul>
-                        <S.InfoItens>Fale Conosco</S.InfoItens>
-                            <S.InfoItens>
-                                <S.link href="https://api.whatsapp.com/send?phone=5585991870232">(85) 99187-0232</S.link>
-                            </S.InfoItens>
-                        <S.InfoItens>vigia@gmail.com</S.InfoItens>
-                    </ul>
-                </S.ConteinerInfo>
-
-                <S.ConteinerInfo>
-                    <ul>
-                        <S.InfoItens>Redes Sociais</S.InfoItens>
-                        <S.InfoItens>Instagram</S.InfoItens>
-                    </ul>
-                </S.ConteinerInfo>
-            </S.Div>
-
-    </S.ContainerFooter>
-        
+            <S.ContainerAppMobile>
+                <img 
+                    className="appMobile" 
+                    src={require("../../assets/image/appStore.png")}
+                    alt="logo-vigia"
+                />
+                <img 
+                    className="appMobile" 
+                    src={require("../../assets/image/googlePlay.png")}
+                    alt="logo-vigia"
+                />
+            </S.ContainerAppMobile>
+        </S.ContainerFooter>        
     );
 };

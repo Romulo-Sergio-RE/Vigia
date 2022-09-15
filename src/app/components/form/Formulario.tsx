@@ -1,5 +1,4 @@
 import { useState } from 'react';
-import { Button } from '../button/Button';
 import { Titulo } from '../titulo/Titulo';
 import * as S from './styled';
 
@@ -46,12 +45,6 @@ export const Formulario = () =>{
                     required
                 /> 
             </label> 
-
-            <Button 
-                titulo={'Enviar'} 
-                tamanho={'pequeno'} 
-                onClick={EnviarEmailParaVigia}
-            />
 
         </S.ContainerForm>
     );

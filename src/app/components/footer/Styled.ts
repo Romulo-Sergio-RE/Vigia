@@ -2,38 +2,42 @@ import styled from "styled-components";
 
 export const ContainerFooter = styled.div`
     width: 100%;
-    height: 250px;
+    height: 16.875rem;
     background: #075F1E;
     display: flex;
-    align-items:center;
-    justify-content:space-around;
+    align-items: center;
+    justify-content: space-around;
+    .imagem-logo{
+        width: 8.125rem;
+        height: 3.75rem;
+    }
+    .appMobile{
+        width: 8.125rem;
+        height: 2.5rem;
+    }
 `;
-export const Imagem = styled.img`
-    width: 160px;
-    height: 160px;
-`;
-
-export const Div = styled.div`
+export const ContainerInfo = styled.div`
     display: flex;
-    width: 50%;
-    justify-content:space-evenly ;
+    .lista{
+        list-style: none;
+        color: #FFFFFF;
+        margin: 0 1.875rem;
+    }
+    .lista-itens-titulo{
+        font-size: 1.5rem;
+        margin: 0 0 0.938rem 0;
+    }
+    .lista-itens{
+        font-size: 1.125rem;
+        margin: 0 0 0.5rem 0;
+    }
 `;
-
-export const link = styled.a`
-    text-decoration: none;
-    color: #FFFFFF;
-`;
-export const ConteinerInfo = styled.div`
-`;
-
-export const InfoItens= styled.li`
-    font-size: 18px;
-    color: #FFFFFF;
-    margin-top: 10px;
-    list-style: none;
-    :first-child{
-        font-size: 24px;
-        font-weight:bold;
-        margin-bottom: 20px;
+export const ContainerAppMobile = styled.div`
+    display: flex;
+    flex-direction: column;
+    .appMobile{
+        width: 8.125rem;
+        height: 2.5rem;
+        margin: 0.188rem 0;
     }
 `;

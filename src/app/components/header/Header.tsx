@@ -1,29 +1,21 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import  * as S from "./styledHeader";
 
 export const Header = () =>{
     return(
         <S.ContainerHeader>
-            <S.ImgLogo src={require("../../assets/LogoVigiaBranco.png")}/>
+            <img className="imagem-logo" src={require("../../assets/image/logoVigiaBranco.png")} alt="logo-Vigia"/>
 
-            <S.ContainerNavegacao>
-                <S.Li>
-                    <Link to={"/sobre"}>Inicio</Link>
-                </S.Li>
-               <S.Li>
-                    <S.Links href="$">Serviço</S.Links>
-                </S.Li>
-                <S.Li>
-                    <S.Links href="$">Quem Somos</S.Links>
-                </S.Li>
-                <S.Li>
-                    <S.Links href="$">Como funciona</S.Links>
-                </S.Li>
-                <S.Li>
-                    <S.Links href="$">Fale Conosco</S.Links>
-                </S.Li>
-            </S.ContainerNavegacao>
+            <ul className="lista">
+                <li className="lista-itens">Inicio</li>
+                <li className="lista-itens">Servicos</li>
+                <li className="lista-itens">Quem Somos</li>
+                <li className="lista-itens">Como Funciona</li>
+                <li className="lista-itens">Plano</li>
+                <li className="lista-itens">Fale Conosco</li>
+            </ul>
+
+            <button className="botao-aplicativo" onClick={()=>{}}>Nosso Aplicativo</button>
         </S.ContainerHeader>
     );
 };

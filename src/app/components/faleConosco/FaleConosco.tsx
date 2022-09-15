@@ -1,5 +1,4 @@
 import React from "react";
-import { Button } from "../button/Button";
 import { Titulo } from "../titulo/Titulo";
 import * as S from "./styled";
 
@@ -33,12 +32,6 @@ export const FaleConosco = () =>{
                     </S.InfoContatosTitulos>
                 </S.InfoContatos>
             </S.Contatos>
-
-            <Button 
-                titulo={"Enviar Mensagem"} 
-                tamanho={"grande"} 
-                onClick={()=>{alert("teste")}}
-            />
         </S.ContainerFaleConosco>
     );
 };

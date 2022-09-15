@@ -10,9 +10,9 @@ export const Titulo: React.FC<ITitulo> = (props) =>{
     return(
         <div>
             {props.color === "verde"?
-                <S.Titulo>{props.titulo}</S.Titulo>
+                <S.Titulo tituloColor={"#12562A"}>{props.titulo}</S.Titulo>
                 :
-                <S.TituloColorBranca>{props.titulo}</S.TituloColorBranca>
+                <S.Titulo tituloColor={"red"}>{props.titulo}</S.Titulo>
             }
         </div>
     );

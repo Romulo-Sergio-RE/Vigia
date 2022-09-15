@@ -1,25 +1,15 @@
 import styled from "styled-components";
 
-export const Titulo = styled.h3`
-    font-size: 32px;
+interface TituloProps {
+    tituloColor: string;
+}
+export const Titulo = styled.h3<TituloProps>`
+    font-size: 2rem;
     font-weight: bold;
-    color: #075F1E;
+    color: ${(props)=>props.tituloColor};
     text-align: center;
-    margin-block-start: 0em;
-    margin-block-end: 0em;
-    
-    ::first-letter{
-        text-transform: uppercase;
-    }
-`;
-export const TituloColorBranca = styled.h3`
-    font-size: 32px;
-    font-weight: bold;
-    color: #FFFFFF;
-    text-align: center;
-    margin-block-start: 0em;
-    margin-block-end: 0em;
-    
+    margin-block-start: 0;
+    margin-block-end: 0;
     ::first-letter{
         text-transform: uppercase;
     }
