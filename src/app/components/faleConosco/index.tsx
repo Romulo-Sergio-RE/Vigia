@@ -26,7 +26,7 @@ export const FaleConosco = () =>{
                 </div>
             </S.ContainerDadosParaContato>
             {isOpenModal?
-                <Formulario onClose={() => setIsOpenModal(false)}/>
+                <Formulario onClose={setIsOpenModal}/>
                 :
                 null
             }

@@ -13,7 +13,11 @@ export const QuemSomos = ()=>{
                     da tecnologia. Com ele conseguimos conectar seus veículos 
                     e apresentar novas perspectivas sobre o seu negócio.
                 </p>
-                <div className="imagem"></div>
+                <img 
+                    alt="imagem-QuemSomos"
+                    className="imagem" 
+                    src={require("../../assets/image/QuemSomos.png")}
+                />
             </S.ContainerInfo>
         </S.ContainerQuemSomos>
     )

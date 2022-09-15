@@ -13,17 +13,16 @@ export const ContainerTexto= styled.div`
     display: flex;
     .containertexto{
         width: 30.625rem;
-        margin: 1.875rem;
+        margin: 3.75rem 1.563rem 1.563rem 1.563rem;
     }
     .texto{
         font-size: 1.5rem;
         line-height: 1.875rem;
         color: #f2f2f2;
-        margin: 1.563rem;
+        margin: 1.875rem 1.563rem 1.563rem 1.563rem;
     }
     .imagem{
         width: 26.25rem;
         height: 25rem;
-        background-color: #f2f2f2;
     }
 `;

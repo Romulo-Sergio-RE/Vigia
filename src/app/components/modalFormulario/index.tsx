@@ -1,9 +1,9 @@
 import { FormEvent, useState } from 'react';
 import { Titulo } from '../titulo/Titulo';
 import * as S from './styledModalFormulario';
-
+import { AiOutlineClose } from 'react-icons/ai';
 interface formularioProps {
-    onClose?: ()=>void
+    onClose: (value: React.SetStateAction<boolean>) => void
 }
 export const Formulario:React.FC<formularioProps> = (props) =>{
 
@@ -11,18 +11,29 @@ export const Formulario:React.FC<formularioProps> = (props) =>{
     const [email, setEmail] = useState("");
     const [message, setMessage] = useState("");
 
+    const fecharModal = ()=>{
+        props.onClose(false)
+    }
     const submitEmail = (e:FormEvent<HTMLFormElement>)=>{
         e.preventDefault()
         console.log(name)
         console.log(email)
         console.log(message)
+        e.target.addEventListener("click", fecharModal)
+        fecharModal()
     }
-
     return(
-        <S.ContainerModal onClick={props.onClose}>
+        <S.ContainerModal>
             <S.ContainerForm onSubmit={(e)=>submitEmail(e)}>
-                <Titulo color='branco' titulo='Entrar em Contato'/>
-
+                <div className='titulos'>
+                    <Titulo color='branco' titulo='Entrar em Contato'/>
+                    <AiOutlineClose 
+                        onClick={fecharModal}
+                        className='iconeBotao' 
+                        size={24} 
+                        color={"#f2f2f2"}
+                    >voltar</AiOutlineClose>
+                </div>
                 <div className='container-inputs'>
                     <label>Nome:</label>
                     <input 
@@ -49,9 +60,7 @@ export const Formulario:React.FC<formularioProps> = (props) =>{
                 </div>
                 
                 <button 
-                    type='submit'
                     className='botao-formulario' 
-                    onClick={props.onClose}
                 >Enviar</button>
             </S.ContainerForm>
         </S.ContainerModal>

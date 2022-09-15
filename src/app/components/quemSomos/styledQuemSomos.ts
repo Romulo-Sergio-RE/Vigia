@@ -22,7 +22,6 @@ export const ContainerInfo = styled.div`
     .imagem{
         width: 34.375rem;
         height: 21.25rem;
-        background-color: #12562A;
         margin: 0 3.125rem;
     }
 `;

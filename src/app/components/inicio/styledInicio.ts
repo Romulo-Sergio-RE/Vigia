@@ -5,7 +5,7 @@ export const ContainerInicio = styled.div`
     height: 100vh;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-evenly;
 `;
 export const ContainerInfo = styled.div`
     width: 25rem;
@@ -46,10 +46,8 @@ export const ContainerInfo = styled.div`
             transform: scale(1.02);
         }
     }
-`;
-export const ContainerImagem = styled.div`
-    width: 28.75rem;
-    height: 20.813rem;
-    border-radius: 0.938rem;
-    background-color: #12562A;
+    .imagem{
+        width: 28.75rem;
+        height: 20.813rem;          
+    }
 `;

@@ -21,9 +21,11 @@ export const ComoFunciona = () =>{
                     </p>
                 </div>
 
-                <div className="imagem">
-
-                </div>
+                <img 
+                    alt="imagem-ComoFunciona"
+                    className="imagem" 
+                    src={require("../../assets/image/ComoFunciona.png")}
+                />
             </S.ContainerTexto>
         </S.ContainerComoFunciona>
     );

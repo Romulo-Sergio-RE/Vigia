@@ -18,12 +18,21 @@ export const ContainerForm = styled.form`
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
-    width: 630px;
+    width: 570px;
     height: 500px;
     background: #12562A;
     border-radius: 15px;
+    .titulos{
+        width: 515px;
+        display: flex;
+        align-items: center;
+        justify-content: right;
+    }
+    .iconeBotao{
+        margin: 0 50px;
+        cursor: pointer;
+    }
     .container-inputs{
-
         label{
             display: block;
             color: #f2f2f2;
@@ -31,7 +40,7 @@ export const ContainerForm = styled.form`
             font-size: 18px;
         }
         input{
-            width: 220px;
+            width: 280px;
             height: 45px;
             border-radius: 12px;
             padding: 0 0 0 10px;
@@ -44,7 +53,7 @@ export const ContainerForm = styled.form`
         }
         textarea{
             display: block;
-            width: 220px;
+            width: 280px;
             height: 90px;
             resize: none;
             border: none;

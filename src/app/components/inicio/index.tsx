@@ -14,9 +14,11 @@ export const Inicio = ()=>{
                 <button className="botaoSaibaMais" onClick={()=>{alert("asdfasdf")}}>Saiba Mais</button>
             </S.ContainerInfo>
 
-            <S.ContainerImagem>
-
-            </S.ContainerImagem>
+            <img 
+                alt="imagem-inicio"
+                className="imagem"
+                src={require("../../assets/image/inicio.png")}
+            />
         </S.ContainerInicio>
     )
 }
