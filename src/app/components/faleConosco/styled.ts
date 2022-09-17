@@ -39,6 +39,10 @@ export const ContainerDadosParaContato = styled.div`
         font-size: 1.5rem;
         font-weight: bold;
         color: #12562A;
+        a{
+            text-decoration: none;
+            color: #12562A;
+        }
     }
     .imagem-icone{
         width: 5rem;

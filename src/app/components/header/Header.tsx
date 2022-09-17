@@ -14,8 +14,21 @@ export const Header = () =>{
                 <li className="lista-itens">Plano</li>
                 <li className="lista-itens">Fale Conosco</li>
             </ul>
-
-            <button className="botao-aplicativo" onClick={()=>{}}>Nosso Aplicativo</button>
+            {window.screen.width <= 425?
+                <a 
+                    target="_blank" 
+                    rel="noreferrer"
+                    href="https://sistema.getrak.com/vigiarastreadores/mmanutencao/index"
+                    ><button className="botao-aplicativo">Nosso Aplicativo</button>
+                </a>
+                :
+                <a 
+                    target="_blank" 
+                    rel="noreferrer"
+                    href="https://sistema.getrak.com/vigiarastreadores/mmanutencao/index"
+                    ><button className="botao-aplicativo">Nosso Aplicativo</button>
+                </a>
+            }
         </S.ContainerHeader>
     );
 };
