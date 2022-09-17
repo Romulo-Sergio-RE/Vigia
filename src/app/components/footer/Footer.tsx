@@ -24,16 +24,20 @@ export const Footer = () =>{
             </S.ContainerInfo>
 
             <S.ContainerAppMobile>
-                <img 
-                    className="appMobile" 
-                    src={require("../../assets/image/appStore.png")}
-                    alt="logo-vigia"
-                />
-                <img 
-                    className="appMobile" 
-                    src={require("../../assets/image/googlePlay.png")}
-                    alt="logo-vigia"
-                />
+                <a href="https://apps.apple.com/br/app/gconnect/id1051885508"  rel="noreferrer" target={"_blank" }>
+                    <img 
+                        className="appMobile" 
+                        src={require("../../assets/image/appStore.png")}
+                        alt="logo-vigia"
+                    />
+                </a>
+                <a href="https://play.google.com/store/apps/details?id=br.com.getrak.gconnect"  rel="noreferrer" target={"_blank" }>
+                    <img 
+                        className="appMobile" 
+                        src={require("../../assets/image/googlePlay.png")}
+                        alt="logo-vigia"
+                    />
+                </a>
             </S.ContainerAppMobile>
         </S.ContainerFooter>        
     );

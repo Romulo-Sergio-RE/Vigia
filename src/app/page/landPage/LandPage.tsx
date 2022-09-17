@@ -10,6 +10,7 @@ export const LandPage = () =>{
           <C.NossoAplicativo />
           <C.ComoFunciona />
           <C.QuemSomos />
+          <C.NossosPlanos />
           <C.FaleConosco />
           <C.Footer />
         </ContainerHome>
