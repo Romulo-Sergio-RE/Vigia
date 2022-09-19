@@ -17,7 +17,7 @@ export const GridCard = () =>{
         {
             id: '3',
             titulo: 'Gestão de Frotas',
-            texto: 'Com sistema é possível ter o gerenciamento de frotas de veículos através do controle de dados, o consumo de combustível, quilometragem e rotas percorridas.',
+            texto: 'O sistema tem o  gerenciamento de frotas de veículos através do controle de dados, o consumo de combustível, quilometragem e rotas percorridas.',
         },
         {
             id: '4',

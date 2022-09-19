@@ -1,5 +1,4 @@
 import styled from "styled-components";
-
 interface colorsProps {
     color?: string,
     backColor?: string,
@@ -23,7 +22,7 @@ export const ContainerTexto= styled.div<colorsProps>`
         font-size: 1.5rem;
         line-height: 1.875rem;
         color: ${(props)=>props.color};
-        margin: 1.875rem 1.563rem 1.563rem 1.563rem;
+        margin: 0 1.563rem 1.563rem 1.563rem;
     }
     .imagem{
         width: 26.25rem;

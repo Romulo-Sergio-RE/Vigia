@@ -13,9 +13,8 @@ export const ContainerInfo = styled.div`
     align-items: center;
     justify-content: space-evenly;
     .texto{
-        width: 30.625rem;
+        width: 35rem;
         font-size: 1.5rem;
-        line-height: 1.875rem;
         text-align: center;
         color: #12562A;
     }
