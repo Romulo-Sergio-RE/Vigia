@@ -1,12 +1,17 @@
 import React from "react";
 import { Titulo } from "../titulo/Titulo";
 import  * as S from "./StyledComoFunciona";
-
-export const ComoFunciona = () =>{
+interface comoFuncionaProps {
+    color: string,
+    backColor: string,
+    colorTitle: string,
+    imagem: string,
+}
+export const ComoFunciona:React.FC<comoFuncionaProps> = (props) =>{
     return(
-        <S.ContainerComoFunciona>
-            <Titulo color="branco" titulo="Como Funciona"/>
-            <S.ContainerTexto>
+        <S.ContainerComoFunciona backColor={props.backColor}>
+            <Titulo color={props.colorTitle} titulo="Como Funciona"/>
+            <S.ContainerTexto color={props.color}>
                 <div className="containertexto">
                     <p className="texto"> 
                         Nossa tecnologia funciona através de um dispositivo 
@@ -20,12 +25,19 @@ export const ComoFunciona = () =>{
                         percursos que o seu veículo realiza e a localização atual.
                     </p>
                 </div>
-
-                <img 
-                    alt="imagem-ComoFunciona"
-                    className="imagem" 
-                    src={require("../../assets/image/ComoFunciona.png")}
-                />
+                {props.imagem === "verde"?
+                    <img 
+                        alt="imagem-ComoFunciona"
+                        className="imagem" 
+                        src={require("../../assets/image/comoFuncionaVerde.png")}
+                    />
+                    :
+                    <img 
+                        alt="imagem-ComoFunciona"
+                        className="imagem" 
+                        src={require("../../assets/image/ComoFunciona.png")}
+                    />
+                }
             </S.ContainerTexto>
         </S.ContainerComoFunciona>
     );

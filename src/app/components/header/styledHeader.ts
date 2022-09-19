@@ -18,9 +18,21 @@ export const ContainerHeader = styled.div`
     }
     .lista-itens{   
         list-style: none;
-        color: #FFFFFF;
+        color: #f2f2f2;
         margin: 0 0.625rem;
         font-size: 1.25rem;
+        .link{
+            color: #f2f2f2;
+            text-decoration: none;
+            padding: 0.313rem;
+            :hover{
+                width: 100%;
+                height: auto;
+                background-color: #f2f2f2;
+                color: rgba(18, 86, 42, 1);
+                border-radius:  0.625rem;
+            }
+        }
     }
     .botao-aplicativo{
         width: 10.625rem;

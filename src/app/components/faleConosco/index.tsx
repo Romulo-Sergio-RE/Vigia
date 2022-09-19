@@ -14,7 +14,7 @@ export const FaleConosco = () =>{
             <S.ContainerDadosParaContato>
                 <div className="containerItens">
                     <img className="imagem-icone" src={require("../../assets/image/whatsapp.png")} alt="imagem-icone-whatsapp"/>
-                    <h3 className="titulo-icone"><a href="https://api.whatsapp.com/send?phone=5585991870232" target="_blank">(85) 99999-9999</a></h3>
+                    <h3 className="titulo-icone"><a rel="noreferrer" href="https://api.whatsapp.com/send?phone=5585991870232" target="_blank">(85) 99187-0232</a></h3>
                 </div>
                 <div className="containerItens">
                     <img className="imagem-icone" src={require("../../assets/image/gmail.png")} alt="imagem-icone-gmail"/>
@@ -22,7 +22,7 @@ export const FaleConosco = () =>{
                 </div>
                 <div className="containerItens">
                     <img className="imagem-icone" src={require("../../assets/image/instagram.png")} alt="imagem-icone-instagram"/>
-                    <h3 className="titulo-icone"><a href="https://instagram.com/vigiaveicular?igshid=YmMyMTA2M2Y=" target="_blank">@vigiaveicular</a></h3>
+                    <h3 className="titulo-icone"><a rel="noreferrer" href="https://instagram.com/vigiaveicular?igshid=YmMyMTA2M2Y=" target="_blank">@vigiaveicular</a></h3>
                 </div>
             </S.ContainerDadosParaContato>
             {isOpenModal?

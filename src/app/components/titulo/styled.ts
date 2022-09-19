@@ -10,6 +10,7 @@ export const Titulo = styled.h3<TituloProps>`
     text-align: center;
     margin-block-start: 0;
     margin-block-end: 0;
+    margin-top: 1rem;
     ::first-letter{
         text-transform: uppercase;
     }

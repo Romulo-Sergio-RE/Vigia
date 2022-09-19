@@ -1,15 +1,19 @@
 import styled from "styled-components";
 
-export const ContainerComoFunciona= styled.div`
+interface colorsProps {
+    color?: string,
+    backColor?: string,
+}
+export const ContainerComoFunciona = styled.div<colorsProps>`
     width: 100%;
     height: 100vh;
-    background-color: #12562A;
+    background: ${(props)=>props.backColor};
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
 `;
-export const ContainerTexto= styled.div`
+export const ContainerTexto= styled.div<colorsProps>`
     display: flex;
     .containertexto{
         width: 30.625rem;
@@ -18,7 +22,7 @@ export const ContainerTexto= styled.div`
     .texto{
         font-size: 1.5rem;
         line-height: 1.875rem;
-        color: #f2f2f2;
+        color: ${(props)=>props.color};
         margin: 1.875rem 1.563rem 1.563rem 1.563rem;
     }
     .imagem{

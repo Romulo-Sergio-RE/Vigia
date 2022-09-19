@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import  * as S from "./styledHeader";
 
 export const Header = () =>{
@@ -15,12 +16,12 @@ export const Header = () =>{
             <img className="imagem-logo" src={require("../../assets/image/logoVigiaBranco.png")} alt="logo-Vigia"/>
 
             <ul className="lista">
-                <li className="lista-itens">Inicio</li>
-                <li className="lista-itens">Servicos</li>
-                <li className="lista-itens">Quem Somos</li>
-                <li className="lista-itens">Como Funciona</li>
-                <li className="lista-itens">Plano</li>
-                <li className="lista-itens">Fale Conosco</li>
+                <li className="lista-itens"><Link className="link" to={"/"}>Inicio</Link></li>
+                <li className="lista-itens"><Link className="link" to={"/servico"}>Servicos</Link></li>
+                <li className="lista-itens"><Link className="link" to={"/quemSomos"}>Quem Somos</Link></li>
+                <li className="lista-itens"><Link className="link" to={"/comoFunciona"}>Como Funciona</Link></li>
+                <li className="lista-itens"><Link className="link" to={"/planos"}>Planos</Link></li>
+                <li className="lista-itens"><Link className="link" to={"/faleConosco"}>Fale Conosco</Link></li>
             </ul>
             {window.screen.width <= 425?
                 <a 

@@ -31,6 +31,10 @@ export const ContainerInfo = styled.div`
     .lista-itens{
         font-size: 1.125rem;
         margin: 0 0 0.5rem 0;
+        a{
+            text-decoration: none;
+            color: #f2f2f2;
+        }
     }
 `;
 export const ContainerAppMobile = styled.div`

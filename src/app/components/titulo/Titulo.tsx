@@ -3,7 +3,7 @@ import * as S from "./styled";
 
 interface ITitulo {
     titulo: string;
-    color: "verde" | "branco";
+    color: "verde" | "branco" | string;
 }
 
 export const Titulo: React.FC<ITitulo> = (props) =>{

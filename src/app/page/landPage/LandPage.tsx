@@ -8,7 +8,12 @@ export const LandPage = () =>{
           <C.Inicio />
           <C.NossoServico />
           <C.NossoAplicativo />
-          <C.ComoFunciona />
+          <C.ComoFunciona 
+            colorTitle="branco" 
+            color="#f2f2f2" 
+            backColor="#12562A"
+            imagem=""
+          />
           <C.QuemSomos />
           <C.NossosPlanos />
           <C.FaleConosco />
