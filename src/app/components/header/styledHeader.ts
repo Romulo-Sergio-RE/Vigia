@@ -50,3 +50,19 @@ export const ContainerHeader = styled.div`
         }
     }
 `;
+export const ContainerHeaderMobile = styled.div`
+    width: 100%;
+    height: 5rem;
+    background-color: rgba(18, 86, 42, 1);
+    display: flex;
+    align-items: baseline;
+    > svg {
+        position: fixed;
+        color: white;
+        width: 30px;
+        height: 30px;
+        margin-top: 32px;
+        margin-left: 32px;
+        cursor: pointer;
+    }
+`;

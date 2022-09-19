@@ -6,6 +6,21 @@ export const ContainerInicio = styled.div`
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    .imagem{
+        width: 28.75rem;
+        height: 20.813rem;          
+    }
+    @media only screen and (max-width: 768px) {
+        .imagem{
+            width: 15.625rem;
+            height: 12.5rem;          
+        }
+    }
+    @media only screen and (max-width: 425px) {
+        .imagem{
+            display: none;
+        }
+    }
 `;
 export const ContainerInfo = styled.div`
     width: 25rem;
@@ -46,8 +61,20 @@ export const ContainerInfo = styled.div`
             transform: scale(1.02);
         }
     }
-    .imagem{
-        width: 28.75rem;
-        height: 20.813rem;          
+    @media only screen and (max-width: 768px) {
+        .logoVigia{
+            width: 17rem;
+            height: 3.375rem;
+        }
+        .texto{
+            width: 17rem;
+            font-size: 1rem;
+        }
+        .botaoSaibaMais{
+            width: 10rem;
+            height: 3rem;
+            background-color: #12562A;
+            font-size: 1rem;
+        }
     }
 `;

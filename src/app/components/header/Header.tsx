@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import  * as S from "./styledHeader";
 
+
 export const Header = () =>{
     const dispositivoMobileIOSouANDROID = ()=>{
         let userAgent = navigator.userAgent;
