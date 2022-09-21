@@ -23,9 +23,22 @@ export const ContainerFaleConosco = styled.div`
             transform: scale(1.03);
         }
     }
+    @media only screen and (max-width: 768px) {
+        .botaoEnviarMensagem{
+            width: 17.5rem;
+            height: 3.75rem;
+            font-size: 1.25rem;
+            margin: 0 0 0 1.563rem;
+        }
+    }
+    @media only screen and (max-width: 320px) {
+        .botaoEnviarMensagem{
+            margin: 0;
+        }
+    }
 `;
 export const ContainerDadosParaContato = styled.div`
-    height: 300px;
+    height: 18.75rem;
     display: flex;
     flex-direction: column;
     align-items: baseline;
@@ -48,5 +61,19 @@ export const ContainerDadosParaContato = styled.div`
         width: 5rem;
         height: 5rem;
         margin: 0 1.875rem;
+    }
+    @media only screen and (max-width: 768px) {
+        .imagem-icone{
+            width: 3.75rem;
+            height: 3.75rem;
+        }
+        .titulo-icone{
+            font-size: 1.25rem;
+        }
+    }
+    @media only screen and (max-width: 320px) {
+        .imagem-icone{
+            margin: 0 0.625rem 0 0;
+        }
     }
 `;

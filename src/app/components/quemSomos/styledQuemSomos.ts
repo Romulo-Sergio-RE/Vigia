@@ -23,4 +23,37 @@ export const ContainerInfo = styled.div`
         height: 21.25rem;
         margin: 0 3.125rem;
     }
+    @media only screen and (max-width: 1024px) {
+        .imagem{
+            width: 26.875rem;
+            height: 16.25rem;
+            margin: 0;
+        }
+        .texto{
+            width: 23rem;
+            font-size: 1.25rem;
+        }
+    }
+    @media only screen and (max-width: 1024px) {
+        flex-direction: column-reverse;
+        .imagem{
+            width: 21.875rem;
+            height: 13.75rem;
+            margin: 0;
+        }
+        .texto{
+            width: 25rem;
+            font-size: 1.125rem;
+        }
+    }
+    @media only screen and (max-width: 375px) {
+        .imagem{
+            width: 18.75rem;
+            height: 12.5rem;
+        }
+        .texto{
+            width: 18rem;
+            font-size: 1rem;
+        }
+    }
 `;
