@@ -46,7 +46,7 @@ export const ContainerInfo = styled.div`
             font-size: 1.125rem;
         }
     }
-    @media only screen and (max-width: 375px) {
+    @media only screen and (max-width: 390px) {
         .imagem{
             width: 18.75rem;
             height: 12.5rem;

@@ -4,6 +4,7 @@ import * as C from "../../components";
 export const LandPage = () =>{
     return (
         <ContainerHome>
+          <C.Header />
           <C.Inicio />
           <C.NossoServico />
           <C.NossoAplicativo />
