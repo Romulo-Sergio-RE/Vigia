@@ -1,9 +1,9 @@
-import { Header, NossosPlanos } from "../../components"
+import { Header, NavBar, NossosPlanos } from "../../components"
 
 export const PlanoPage = ()=>{
     return(
         <>
-            <Header />
+            <NavBar />   
             <NossosPlanos />
         </>
     )

@@ -1,9 +1,9 @@
-import { ComoFunciona, Header, } from "../../components"
+import { ComoFunciona, NavBar, } from "../../components"
 
 export const ComoFuncionaPage = ()=>{
     return(
         <>
-            <Header/>
+            <NavBar />
             <ComoFunciona 
                 colorTitle="verde" 
                 color="#12562A" 

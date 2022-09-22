@@ -1,9 +1,9 @@
-import { Header, QuemSomos } from "../../components"
+import { Header, NavBar, QuemSomos } from "../../components"
 
 export const QuemSomosPage = ()=>{
     return(
         <>
-            <Header/>
+            <NavBar />
             <QuemSomos />
         </>
     )

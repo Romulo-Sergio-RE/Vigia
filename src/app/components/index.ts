@@ -10,3 +10,4 @@ export * from './inicio/index';
 export * from './comoFunciona/index';
 export * from './quemSomos/index';
 export * from './nossosPlanos';
+export * from "./navbar/navBar"

@@ -1,9 +1,9 @@
-import {FaleConosco, Header, } from "../../components"
+import {FaleConosco, Header, NavBar, } from "../../components"
 
 export const FaleConoscoPage = ()=>{
     return(
         <>
-            <Header/>
+            <NavBar />
             <FaleConosco />
         </>
     )

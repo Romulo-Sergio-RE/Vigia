@@ -1,9 +1,9 @@
-import { Header, NossoServico } from "../../components"
+import { Header, NavBar, NossoServico } from "../../components"
 
 export const ServicoPage = ()=>{
     return(
         <>
-            <Header />
+            <NavBar />
             <NossoServico />
         </>
     )
