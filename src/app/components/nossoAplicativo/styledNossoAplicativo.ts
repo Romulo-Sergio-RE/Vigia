@@ -18,22 +18,31 @@ export const ContainerNossoAplicativo = styled.div`
             height: 18.75rem;
         }
     }
-    @media only screen and (max-width: 440px) {
+    @media only screen and (max-width: 470px) {
         .imagemNossoAplicativo{
             width: 23rem;
             height: 18.75rem;
+            margin: 0 0 0 10px;
         }
     }
     @media only screen and (max-width: 425px) {
         .imagemNossoAplicativo{
             width: 25rem;
             height: 18.75rem;
+            margin: 0 0 0 10px;
         }
     }
-    @media only screen and (max-width: 375px) {
+    @media only screen and (max-width: 410px) {
         .imagemNossoAplicativo{
-            width: 20.625rem;
+            width: 20rem;
             height: 18.75rem;
+        }
+    }
+    @media only screen and (max-width: 330px) {
+        .imagemNossoAplicativo{
+            width: 19.5rem;
+            height: 18.75rem;
+            margin: 0 0 0 5px;
         }
     }
 `;

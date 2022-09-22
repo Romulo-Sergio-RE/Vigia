@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const ContainerFooter = styled.div`
     width: 100%;
     height: 21.875rem;
-    background: #075F1E;
+    background: #12562A;
     display: flex;
     align-items: center;
     justify-content: space-around;

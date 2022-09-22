@@ -6,7 +6,7 @@ export const ContainerCard = styled.div`
     align-items: center;
     width: 19rem;
     height: 16rem;
-    background: #075F1E;
+    background: #345830;
     border-radius: 0.938rem;
     box-shadow: 0.5rem 0 1.25rem rgba(0, 0, 0, 0.35);
     margin-bottom: 1.25rem;

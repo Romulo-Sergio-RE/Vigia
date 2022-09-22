@@ -8,7 +8,7 @@ export const NossoAplicativo = ()=>{
             <Titulo color="verde" titulo="Nosso Aplicativo"/>
             <img 
                 className="imagemNossoAplicativo" 
-                src={require("../../assets/image/imagemNossoAplicativo.png")} 
+                src={require("../../assets/image/imgApp.png")} 
                 alt="imagem-nossoAplicativo"
             />
         </S.ContainerNossoAplicativo>

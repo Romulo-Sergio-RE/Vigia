@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const ContainerNossoPlanos = styled.div`
     width: 100%;
     height: 100vh;
-    background-color: #12562A;
+    background-color: #345830;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -22,7 +22,7 @@ export const ContainerCards = styled.div`
         height: 26.875rem;
         background-color: #f2f2f2;
         border-radius: 0.938rem;
-        border: 0.25rem solid #f2f2f2;
+        border: 0.25rem solid #3E8914;
         box-shadow: 0.375rem 0 0.938rem rgba(0, 0, 0, 0.25);
         display: flex;
         flex-direction: column;

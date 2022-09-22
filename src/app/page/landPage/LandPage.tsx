@@ -11,7 +11,7 @@ export const LandPage = () =>{
           <C.ComoFunciona 
             colorTitle="branco" 
             color="#f2f2f2" 
-            backColor="#12562A"
+            backColor="#345830"
             imagem=""
           />
           <C.QuemSomos />

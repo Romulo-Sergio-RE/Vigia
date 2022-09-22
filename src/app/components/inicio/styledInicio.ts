@@ -42,7 +42,7 @@ export const ContainerInfo = styled.div`
     .subTitulo{
         font-size: 1.5rem;
         font-weight: bold;
-        color: #12562A;
+        color: #3E8914;
     }
     .texto{
         width: 22.5rem;
@@ -55,7 +55,7 @@ export const ContainerInfo = styled.div`
         height: 3.75rem;
         border-radius: 0.938rem;
         border: none;
-        background-color: #12562A;
+        background-color: #345830;
         box-shadow: 0.375rem 0 0.938rem rgba(0, 0, 0, 0.25);
         color: #f2f2f2;
         cursor: pointer;
@@ -82,7 +82,7 @@ export const ContainerInfo = styled.div`
         .botaoSaibaMais{
             width: 10rem;
             height: 3rem;
-            background-color: #12562A;
+            background-color: #345830;
             font-size: 1rem;
         }
     }
