@@ -16,6 +16,11 @@ export const ContainerInicio = styled.div`
             height: 12.5rem;          
         }
     }
+    @media only screen and (max-width: 550px) {
+        .imagem{
+           display: none;
+        }
+    }
     @media only screen and (max-width: 425px) {
         .imagem{
             display: none;
@@ -60,6 +65,10 @@ export const ContainerInfo = styled.div`
         :hover{
             transform: scale(1.02);
         }
+    }
+    .link{
+        text-decoration: none;
+        color: #f2f2f2;
     }
     @media only screen and (max-width: 768px) {
         .logoVigia{

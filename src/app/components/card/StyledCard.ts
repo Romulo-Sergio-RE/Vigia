@@ -20,7 +20,10 @@ export const TituloCard = styled.h3`
 export const TextoCard = styled.p`
     font-size: 1.125rem;
     color: #FFFFFF; 
-    text-align: justify;
+    text-align: left;
     padding: 1.875rem 2.188rem;
     line-height: 1.4rem;
+    @media only screen and (max-width: 770px) {
+        text-align: center;
+    }
 `;

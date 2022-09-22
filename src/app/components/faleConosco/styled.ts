@@ -58,8 +58,8 @@ export const ContainerDadosParaContato = styled.div`
         }
     }
     .imagem-icone{
-        width: 5rem;
-        height: 5rem;
+        width: 3.75rem;
+        height: 3.75rem;
         margin: 0 1.875rem;
     }
     @media only screen and (max-width: 768px) {

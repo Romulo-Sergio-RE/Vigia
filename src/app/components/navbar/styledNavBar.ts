@@ -42,9 +42,6 @@ export const ContainerNavBar = styled.div`
             border-radius:  0.625rem;
         }
     }
-    .lista-itens{
-
-    }
     .botao-aplicativo{
         width: 10rem;
         height: 2.5rem;
@@ -119,6 +116,15 @@ export const ContainerNavBar = styled.div`
         }
         .navigation-menu.expanded ul {
             display: inline-block;
+        }
+    }
+    @media screen and (max-width: 850px) {
+        .botao-aplicativo{
+            width: 7rem;
+            height: 2.5rem;
+        }
+        .navigation-menu li {
+            margin: 0 0.5rem;
         }
     }
 `;

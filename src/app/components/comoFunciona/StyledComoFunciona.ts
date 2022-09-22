@@ -40,6 +40,17 @@ export const ContainerTexto= styled.div<colorsProps>`
             font-size: 1.2rem;
         }
     }
+    @media only screen and (max-width: 850px){
+        .containertexto{
+            width: 23rem;  
+        }
+        .texto{
+            font-size: 1.3rem;
+        }
+        .imagem{
+            display: none;
+        }
+    }
     @media only screen and (max-width: 768px){
         .imagem{
             display: none;

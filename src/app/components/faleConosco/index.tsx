@@ -4,9 +4,9 @@ import { Titulo } from "../titulo/Titulo";
 import * as S from "./styled";
 
 export const FaleConosco = () =>{
-    //https://api.whatsapp.com/send?phone=5585991870232"
 
     const [isOpenModal, setIsOpenModal] = useState(false)
+    
     return(
         <S.ContainerFaleConosco>
             <Titulo titulo={"Fale Conosco"} color={"verde"} />
@@ -30,7 +30,6 @@ export const FaleConosco = () =>{
                 :
                 null
             }
-            <button className="botaoEnviarMensagem" onClick={()=>{setIsOpenModal(true)}}>Enviar Mensagem</button>
         </S.ContainerFaleConosco>
     );
 };

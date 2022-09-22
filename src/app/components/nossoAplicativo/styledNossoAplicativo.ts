@@ -18,6 +18,12 @@ export const ContainerNossoAplicativo = styled.div`
             height: 18.75rem;
         }
     }
+    @media only screen and (max-width: 440px) {
+        .imagemNossoAplicativo{
+            width: 23rem;
+            height: 18.75rem;
+        }
+    }
     @media only screen and (max-width: 425px) {
         .imagemNossoAplicativo{
             width: 25rem;

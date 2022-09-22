@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom"
 import * as S from "./styledInicio"
 
 export const Inicio = ()=>{
@@ -11,7 +12,9 @@ export const Inicio = ()=>{
                 />
                 <h4 className="subTitulo">Rastreamento Veicular</h4>
                 <p className="texto">Criada para os usuários que querem ter segurança de onde estão seus veículos, podendo localizar, monitorar e gerenciá-los. </p>
-                <button className="botaoSaibaMais" onClick={()=>{alert("asdfasdf")}}>Saiba Mais</button>
+                <button 
+                    className="botaoSaibaMais" 
+                ><Link to="/quemSomos" className="link" >Saiba Mais</Link></button>
             </S.ContainerInfo>
 
             <img 
