@@ -18,7 +18,7 @@ export const NossosPlanos = () =>{
                         </div>
                         <div className="info-card">
                             <h3>mensalidade do CHIP e do APLICATIVO</h3>
-                            <h3>preço -<h2 className="valorPlano"> R$ 49,99</h2></h3>
+                            <h3>preço -<h2 className="valorPlano"> R$ 49,99/mês</h2></h3>
                         </div>
                     </div>
                 </div>
@@ -32,7 +32,7 @@ export const NossosPlanos = () =>{
                         </div>
                         <div className="info-card">
                             <h3>mensalidade do CHIP e do APLICATIVO</h3>
-                            <h3>preço -<h2 className="valorPlano"> R$ 24,99</h2></h3>
+                            <h3>preço -<h2 className="valorPlano"> R$ 24,99/mês</h2></h3>
                         </div>
                     </div>
                 </div>
