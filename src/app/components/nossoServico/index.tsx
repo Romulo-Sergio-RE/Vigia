@@ -5,7 +5,7 @@ import * as S from "./styledNossoServico"
 export const NossoServico = ()=>{
     return(
         <S.ContainerNossoServico>
-            <Titulo color="verde" titulo="Nosso Servico"/>
+            <Titulo color="verde" titulo="Nosso Serviço"/>
             <GridCard />
         </S.ContainerNossoServico>
     )
