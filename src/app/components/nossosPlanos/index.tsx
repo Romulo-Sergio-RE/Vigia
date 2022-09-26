@@ -12,7 +12,7 @@ export const NossosPlanos = () =>{
                     <div className="teste">
                         <div className="info-card">
                             <h2>- Comodato:</h2>
-                            <h3>O aparelho e da empresa e o cliente paga uma mensalidade</h3>
+                            <h3>O aparelho é da empresa e o cliente paga uma mensalidade</h3>
                             <h2>- Instalação do Aparelho:</h2>
                             <h3>Valor:<h2 className="valorPlano">R$ 99,99</h2></h3>
                         </div>
@@ -27,7 +27,7 @@ export const NossosPlanos = () =>{
                     <div className="teste">
                         <div className="info-card">
                             <h2>- Aparelho + Instalação :</h2>
-                            <h3>O cliente compra o aparelho e fica pagando a mensalidade</h3>
+                            <h3>O cliente compra o aparelho e paga uma mensalidade</h3>
                             <h3>Valor:<h2 className="valorPlano">R$ 399,99</h2></h3>
                         </div>
                         <div className="info-card">

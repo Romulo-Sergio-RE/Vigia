@@ -116,7 +116,7 @@ export const ContainerCards = styled.div`
             height: 20rem;
             background-color: #f2f2f2;
             border-radius: 0.938rem;
-            border: 0.25rem solid #f2f2f2;
+            border: 0.25rem solid #3E8914;
             box-shadow: 0.375rem 0 0.938rem rgba(0, 0, 0, 0.25);
             display: flex;
             flex-direction: column;
@@ -135,7 +135,8 @@ export const ContainerCards = styled.div`
         }
         .info-card{
             width: 18.75rem;
-            margin-left: 1.875rem;
+            margin-left: 1rem;
+            padding: 15px;
             .valorPlano{
                 margin-left: 0.625rem;
             }

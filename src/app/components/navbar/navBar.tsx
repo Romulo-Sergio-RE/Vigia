@@ -47,9 +47,9 @@ export const NavBar = () =>{
                     null
                 }
                     <li><Link to={"/"}>Inicio</Link></li>
-                    <li><Link to={"/servico"}>Servicos</Link></li>
-                    <li><Link to={"/quemSomos"}>Quem Somos</Link></li>
+                    <li><Link to={"/servico"}>Serviços</Link></li>
                     <li><Link to={"/comoFunciona"}>Como Funciona</Link></li>
+                    <li><Link to={"/quemSomos"}>Quem Somos</Link></li>
                     <li><Link to={"/planos"}>Planos</Link></li>
                     <li><Link to={"/faleConosco"}>Fale Conosco</Link></li>
                 
